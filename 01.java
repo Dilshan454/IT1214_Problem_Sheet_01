@@ -42,6 +42,9 @@ class Classroom{
         if(studentCount<10){
             students[studentCount++]=student;
         }
+        } else {
+            System.out.println("Classroom is full.");
+        }
     }
 
     public void updateAttendance(int id, int newDays) {
